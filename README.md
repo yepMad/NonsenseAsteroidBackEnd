@@ -38,7 +38,7 @@ NPM v6.13.6 *(used due to ESLint)*;
 
 **GET** /scoreboard => Do not receive any body. Returns a listing of the top 10 scores stored in MongoDB.
 
-**POST** /scoreboard => Receives 3 arguments in the body:
+**PUT** /scoreboard => Receives 3 arguments in the body:
 
 	{
 		"token": "16-digit alphanumeric code generated only once randomly within Unity",
